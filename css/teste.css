@@ -1,0 +1,65 @@
+body {
+	background-color: #17161A; 
+	color: #fff;
+}
+.wrapper {
+	padding: 80px 0;
+}
+.section-header {
+	padding-bottom: 35px;
+}
+h1 {
+	color: white;
+	font-weight: 700;
+}
+.content p {
+	width: 50%;
+	margin:auto;
+	color: #434657;
+}
+.content-testmonial{
+	padding-top: 20px;
+}
+.img-area {
+	width: 100px;
+	height: 100px;
+	display: block;
+	margin: auto;
+	overflow: hidden;
+	border-radius: 100%;
+	margin-top: 30px;
+
+}
+.img-area img {
+	width: 100%;
+}
+.content h5 {
+	color: #33567D;
+	font-weight: 900;
+	margin-top: 15px;
+}
+.carousel-indicators {
+	bottom: -60px;
+}
+.carousel-indicators [data-bs-target] {
+	width: 60px;
+	height: 10px;
+	background-color: #9C7A67;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.content p {
+		width: 95%;
+	}
+}
+@media (max-width: 767px) {
+	.wrapper {
+		padding: 30px 0;
+	}
+	.content p {
+		width: 100%;
+	}
+	.icon-area i {
+		font-size: 50px;
+	}
+}

@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Owl Carousel - Jquery Plugin</title>
+
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Anton|Cabin|Lato|Fjalla+One|Montserrat|Roboto&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+    <!-- Animações -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+
+<body>
+
+    <!--navbar-->
+    <header>
+        <div class="menu">
+            <div class="title">
+                <h1>Chrono</h1>
+            </div>
+            <ul class="navbar">
+                <a href="#" class="link-navbar">Inicio</a>
+                <a href="#" class="link-navbar">Serviços</a>
+                <a href="#" class="link-navbar">Sobre</a>
+                <a href="#" class="link-navbar">Contato</a>
+            </ul>
+            <div class="itens-adicionais">
+                <a href="#" class="link-navbar"><i class="fa-solid fa-basket-shopping"></i></a>
+                <a href="#" class="link-navbar"><i class="fa-solid fa-user"></i></a>
+            </div>
+            <div class="botao"><a href="#">Crie sua conta</a></div>
+        </div>
+    </header>
+    <!--end navbar-->
+
+    <!--carousel-->
+    <main>
+        <div class="owl-carousel owl-theme">
+            <div class="slide slide-1">
+                <div class="slide-content">
+                    <h1>Welcome To Tech Memorise</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <button class="carousel-button">Like & Share</button>
+                </div>
+            </div>
+            <div class="slide slide-2">
+                <div class="slide-content">
+                    <h1>Your True Tech Navigator</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <button class="carousel-button">Like & Share</button>
+                </div>
+            </div>
+            <div class="slide slide-3">
+                <div class="slide-content">
+                    <h1>Your True Source of Learning Web Dev</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <button class="carousel-button">Like & Share</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--end carousel-->
+
+    <!--cards-offer-->
+    <section class="cards-offer">
+        <div class="textos">
+            <h1 class="titulo-1"> OUR DELICIOUS <span style="color: #9c7a67">&nbsp;OFFER</span></h1>
+            <p class="texto-1">very Nest Cam plugs into power so it won't miss a second, can send helpful notifications to your phone, and is designed with an all-glass lens and premium materials.</p>
+        </div>
+        <div class="conteudo-imagens">
+            <div class="imagens-texto-1">
+                <img src="/img/icon-4_medium.avif" alt="">
+                <p class="titulo-imagem">STRAP WATCH</p>
+                <p class="textos-2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+            </div>
+            <div class="imagens-texto-2">
+                <img src="img/icon-6_medium.avif" alt="">
+                <p class="titulo-imagem">DIAL WATCH</p>
+                <p class="textos-2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+            </div>
+            <div class="imagens-texto-3">
+                <img src="img/icon-1_medium.png" alt="">
+                <p class="titulo-imagem">ALARM WATCH</p>
+                <p class="textos-2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+            </div>
+            <div class="imagens-texto-4">
+                <img src="img/icon-5_medium.avif" alt="">
+                <p class="titulo-imagem">ANALOG WATCH</p>
+                <p class="textos-2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+            </div>
+        </div>
+    </section>
+    <!--cards-offer-->
+
+    <!--product slider-->
+    <main class="main-product">
+        <div class="text-product">
+            <h1>NEW ARRIVALS</h1>
+            <p style="color: #4B5063;">Just Stocked</p>
+        </div>
+        <section class="product-slider">
+            <div class="cards-product">
+                <div class="product">
+                    <picture>
+                        <img src="img/produto1.webp" alt="">
+                    </picture>
+                    <div class="details">
+                        <p>
+                            <b>Product one</b>
+                        </p>
+                        <samp>$45.00</samp>
+                    </div>
+                    <div class="button">
+                        <p class="star">
+                            <strong>&star;</strong>
+                            <strong>&star;</strong>
+                            <strong>&star;</strong>
+                            <strong>&star;</strong>
+                            <strong>&star;</strong>
+                        </p>
+                    </div>
+                </div>
+                <div class="product">
+                    <picture>
+                        <img src="img/produto2.webp" alt="">
+                    </picture>
+                    <div class="details">
+                        <p>
+                            <b>Product one</b>
+                        </p>
+                        <samp>$45.00</samp>
+                    </div>
+                    <div class="button">
+                        <p class="star">
+                            <strong>&star;</strong>
+                            <strong>&star;</strong>
+                            <strong>&star;</strong>
+                            <strong>&star;</strong>
+                            <strong>&star;</strong>
+                        </p>
+                    </div>
+                </div>
+                    <div class="product">
+                        <picture>
+                            <img src="img/produto3.webp" alt="">
+                        </picture>
+                        <div class="details">
+                            <p>
+                                <b>Product one</b>
+                            </p>
+                            <samp>$45.00</samp>
+                        </div>
+                        <div class="button">
+                            <p class="star">
+                                <strong>&star;</strong>
+                                <strong>&star;</strong>
+                                <strong>&star;</strong>
+                                <strong>&star;</strong>
+                                <strong>&star;</strong>
+                            </p>
+                        </div>
+                    </div>
+                <div class="product">
+                    <picture>
+                        <img src="img/produto4.webp" alt="">
+                    </picture>
+                    <div class="details">
+                        <p>
+                            <b>Product one</b>
+                        </p>
+                        <samp>$45.00</samp>
+                    </div>
+                    <div class="button">
+                        <p class="star">
+                            <strong>&star;</strong>
+                            <strong>&star;</strong>
+                            <strong>&star;</strong>
+                            <strong>&star;</strong>
+                            <strong>&star;</strong>
+                        </p>
+                    </div>
+                </div>
+                <div class="product">
+                    <picture>
+                        <img src="img/produto5.webp" alt="">
+                    </picture>
+                    <div class="details">
+                        <p>
+                            <b>Product one</b>
+                        </p>
+                        <samp>$45.00</samp>
+                    </div>
+                    <div class="button">
+                        <p class="star">
+                            <strong>&star;</strong>
+                            <strong>&star;</strong>
+                            <strong>&star;</strong>
+                            <strong>&star;</strong>
+                            <strong>&star;</strong>
+                        </p>
+                    </div>
+                </div>
+                <div class="product">
+                    <picture>
+                        <img src="img/produto6.webp" alt="">
+                    </picture>
+                    <div class="details">
+                        <p>
+                            <b>Product one</b>
+                        </p>
+                        <samp>$45.00</samp>
+                    </div>
+                    <div class="button">
+                        <p class="star">
+                            <strong>&star;</strong>
+                            <strong>&star;</strong>
+                            <strong>&star;</strong>
+                            <strong>&star;</strong>
+                            <strong>&star;</strong>
+                        </p> 
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--end product-slider-->
+
+    <!--card container-->
+    <section class="about-us">
+        <div class="container card-container">
+            <div class="about-image">
+                <img src="img/img card.webp" alt="">
+            </div>
+            <div class="about-content">
+                <h1 class="card-title">OUR GOOD WATCHES IS...</h1>
+                <p class="card-paragrafo">With 24/7 live streaming, a versatile magnetic stand, person alerts with Nest Aware and one app for all your Nest products, Nest Cam helps you keep an eye on what matters. From anywhere.</p>
+                <a href="" class="card-btn">Learn more</a>
+            </div>
+        </div>
+    </section>
+    <!--end card container-->
+
+    <!--product-list-->
+    <section class="product-list" style="background-color: #0F0F0F;">
+        <div class="list-text" style="padding-top: 80px;">
+            <h1 class="list-title"> SPECIAL <span style="color: #9c7a67">&nbsp;MENU</span></h1>
+            <p class="list-paragrafo">very Nest Cam plugs into power so it won't miss a second, can send helpful notifications
+            to your phone, and is designed with an all-glass lens and premium materials.</p>
+        </div>
+        <div class="grid">
+            <main class="list" style="background-color: #0F0F0F;">
+                <div class="produto-imagem">
+                    <img src="img/pngwing.com.png" alt="" class="produto-img1" style="width: 120px;height: 120px;" />
+
+                    <div class="product-description">
+                    <a href="#"class="watch-title">Analogue Round Red Dial</a>
+                    <p class="watch-paragrafo" style="font-size: 16px; margin-top: 15px;">Lorem ipsum dolor sit amet,...</p>
+                    <p class="preco">$289.00</p>
+                    </div>
+
+                    <div class="product-details">
+                    <button class="cart-btn">
+                        <i id="carrinho" class="fa fa-cart-plus"></i>
+                    </button>
+                    </div>
+                </div>
+                <div class="produto-imagem">
+                    <img src="img/pngwing.com.png" alt="" class="produto-img1" style="width: 112px;height: 112px;" />
+
+                    <div class="product-description">
+                    <a href="#"class="watch-title">Analogue Round Red Dial</a>
+                    <p class="watch-paragrafo" style="font-size: 16px; margin-top: 15px;">Lorem ipsum dolor sit amet,...</p>
+                    <p class="preco">$289.00</p>
+                    </div>
+
+                    <div class="product-details">
+                    <button class="cart-btn">
+                        <i id="carrinho" class="fa fa-cart-plus"></i>
+                    </button>
+                    </div>
+                </div>
+
+                <div class="produto-imagem">
+                    <img src="/img/pngwing.com.png" alt="" class="produto-img1" style="width: 112px;height: 112px;" />
+
+                    <div class="product-description">
+                    <a href="#"class="watch-title">Analogue Round Red Dial</a>
+                    <p class="watch-paragrafo" style="font-size: 16px; margin-top: 15px;">Lorem ipsum dolor sit amet,...</p>
+                    <p class="preco">$289.00</p>
+                    </div>
+
+                    <div class="product-details">
+                    <button class="cart-btn">
+                        <i id="carrinho" class="fa fa-cart-plus"></i>
+                    </button>
+                    </div>
+                </div>
+
+                <div class="produto-imagem">
+                    <img src="/img/pngwing.com.png" alt="" class="produto-img1" style="width: 112px;height: 112px;" />
+
+                    <div class="product-description">
+                    <a href="#"class="watch-title">Analogue Round Red Dial</a>
+                    <p class="watch-paragrafo">Lorem ipsum dolor sit amet,...</p>
+                    <p class="preco">$289.00</p>
+                    </div>
+
+                    <div class="product-details">
+                    <button class="cart-btn">
+                        <i id="carrinho" class="fa fa-cart-plus"></i>
+                    </button>
+                    </div>
+                </div>
+                <div class="produto-imagem">
+                    <img src="/img/pngwing.com.png" alt="" class="produto-img1" style="width: 112px;height: 112px;" />
+
+                    <div class="product-description">
+                    <a href="#"class="watch-title">Analogue Round Red Dial</a>
+                    <p class="watch-paragrafo" style="font-size: 16px; margin-top: 15px;">Lorem ipsum dolor sit amet,...</p>
+                    <p class="preco">$289.00</p>
+                    </div>
+
+                    <div class="product-details">
+                    <button class="cart-btn">
+                        <i id="carrinho" class="fa fa-cart-plus"></i>
+                    </button>
+                    </div>
+                </div>
+
+                <div class="produto-imagem">
+                    <img src="/img/pngwing.com.png" alt="" class="produto-img1" style="width: 112px;height: 112px;" />
+
+                    <div class="product-description">
+                    <a href="#"class="watch-title">Analogue Round Red Dial</a>
+                    <p class="watch-paragrafo" style="font-size: 16px; margin-top: 15px;">Lorem ipsum dolor sit amet,...</p>
+                    <p class="preco">$289.00</p>
+                    </div>
+
+                    <div class="product-details">
+                    <button class="cart-btn">
+                        <i id="carrinho" class="fa fa-cart-plus"></i>
+                    </button>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </section>
+    <!--end product-list-->
+      
+    <!--testimonials-->
+    <section class="testmonials">
+        <div class="wrapper">
+            <div class="container testmonial-container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="section-header text-center">
+                            <h1 class="testmonials-title">TESTMONIALS</h1>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+        
+                        <div class="content text-center">
+                            <div class="icon-area animated zoomIn" style="animation-delay: 1s">
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit reiciendis necessitatibus
+                                    laborum numquam consequuntur possimus magnam expedita ipsam illum voluptatem quia assumenda
+                                    placeat, at asperiores vitae obcaecati. Reprehenderit nesciunt voluptatem excepturi, libero
+                                    ipsum tempora perspiciatis.</p><!-- lorem35 -->
+        
+                            <div class="content-testmonial">
+                                <div class="img-area animated zoomIn" style="animation-delay: 2s">
+                                    <img src="img/testimonial img 1.avif" alt="">
+                                </div>
+                                <h5>Jasper Kane</h5>
+                                <h6>Web Developer</h6>
+                            </div>
+                        </div>	
+                    </div>	
+                </div>	
+            </div>		
+        </div>
+    </section>
+    <!--end-testimonials-->
+
+    <!--bg-section-->
+    <section class="bg-section" style="background-image: url(/img/background-img\ section.jpg);">
+        <div class="textos-bg">
+            <h1 class="title-bg">Discount For All Orders<span style="color: #9c7a67">&nbsp;Over&nbsp$100</span></h1>
+            <h2 class="subtitle-bg">We're at 71% of our goal!</h2>
+            <p class="paragrafo-bg">That’s $56,715.00 USD pledged of our $79,600.00 USD target!
+                Estimated delivery: April 14-24
+            </p>
+            <a href=""><button class="button-bg">View More</button></a>
+        </div>
+    </section>
+    <!--end bg-section-->
+
+    <!--informations-cards-->
+    <section class="informations-cards" style="background-color: #0F0F0F;">
+        <main class="information-product">
+            <div class="text-information">
+                <h1>NEW ARRIVALS</h1>
+                <p style="color: #4B5063;">Just Stocked</p>
+            </div>
+            <div class="cards-content-informations">
+                <div class="card1-informations">
+                    <img class="images-informations" src="/img/card img1.webp" alt="">
+                    <h1 class="card-title-informations">Stunning black belt watch</h1>
+                    <p class="card-data-informations" style="color: #9C7A67;">27 / Jul/ 2018</p>
+                    <p class="card-paragrafo-informations">Pellentesque posuere orci lobortis scelerisque blandit. Donec id tellus lacinia an, 
+                    tincidunt risus ac, consequat velit. Quisquemos sodales suscipit tortor ditaemcos c...</p>
+                </div>
+                <div class="card1-informations">
+                    <img class="images-informations" src="/img/card img2.webp" alt="">
+                    <h1 class="card-title-informations">Stunning black belt watch</h1>
+                    <p class="card-data-informations" style="color: #9C7A67;">27 / Jul/ 2018</p>
+                    <p class="card-paragrafo-informations">Pellentesque posuere orci lobortis scelerisque blandit. Donec id tellus lacinia an, 
+                    tincidunt risus ac, consequat velit. Quisquemos sodales suscipit tortor ditaemcos c...</p>
+                </div>
+                <div class="card1-informations">
+                    <img class="images-informations" src="/img/card img3.webp" alt="">
+                    <h1 class="card-title-informations">Stunning black belt watch</h1>
+                    <p class="card-data-informations" style="color: #9C7A67;">27 / Jul/ 2018</p>
+                    <p class="card-paragrafo-informations">Pellentesque posuere orci lobortis scelerisque blandit. Donec id tellus lacinia an, 
+                    tincidunt risus ac, consequat velit. Quisquemos sodales suscipit tortor ditaemcos c...</p>
+                </div>
+            </div>
+            <div class="button-informations-content">
+                <a href=""><button class="button-informations">View more</button></a>
+            </div>
+        </main>
+    </section>
+    <!--end informations-cards-->
+
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Bootstrap Js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Owl Carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- Custom Javascript -->
+    <script>
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel({
+                items:1,
+                loop:true,
+                nav:true,
+                dots:true,
+                smartSpeed:1000,
+                autoplayHoverPause:true
+            });
+        });
+    </script>
+
+</body>
+</html>
